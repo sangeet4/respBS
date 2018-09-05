@@ -1,0 +1,58 @@
+#cover{
+    .jumbotron{
+        margin-bottom: 0;
+        img{
+            @include set-width(100%);
+        }
+        .container-fluid{
+            margin-top: $u-5;
+            .row{
+                margin-top: $u-2;
+                @include set-text-align(center);
+            }
+        }
+    }
+}
+
+#carousel{
+    .display-4{
+        margin-top: $u-5;
+        margin-bottom: $u-5;
+        @include set-text-align(center);
+    }
+    .slide{
+        img{
+            display: block;
+            @include set-width(100%);
+        }
+        h6{
+            color: $magenta;
+        }
+    }
+}
+
+#cards{
+    .display-4{
+        margin-top: $u-5;
+        margin-bottom: $u-5;
+        @include set-text-align(center);
+    }
+    .container{
+        .card{
+            margin-bottom: $u-4;
+            .card-title{
+                @include set-text-align(center);
+            }
+        }
+    }
+}
+
+footer{
+    padding-top: $u-3;
+    .display-5{
+        @include set-text-align(center);
+    }
+    .navig{
+        margin-top: $u-4;
+    }
+}

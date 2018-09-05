@@ -1,1 +1,18 @@
-$blue: red;
+//custom CSS
+
+//Variables
+$magenta:   #ff1e3c;
+$u-5:    5rem;
+$u-4:    4rem;
+$u-3:    3rem;
+$u-2:    2rem;
+$u-1:    1rem;
+
+//mixin
+@mixin set-width($in){
+    width: $in;
+}
+
+@mixin set-text-align($value){
+    text-align: $value;
+}
