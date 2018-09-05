@@ -3,7 +3,5 @@ import './scss/index.scss';
 
 //for popovers
 $(function () {
-    $('.popbtn').popover({
-      container: '.pop1'
-    })
-  })
+    $('[data-toggle="popover"]').popover()
+})

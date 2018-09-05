@@ -1,9 +1,11 @@
+//dropdown nav
 .dropdown{
     a:hover{
         color: $magenta;
     }
 }
 
+//space b/w SignIn and JoinNow
 #navbarContent{
     button{
         margin-right: $u-1;
